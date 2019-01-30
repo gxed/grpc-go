@@ -1,0 +1,54 @@
+{
+  "author": "hsanjuan",
+  "bugs": {
+    "url": "https://github.com/grpc/grpc-go"
+  },
+  "gx": {
+    "dvcsimport": "google.golang.org/grpc"
+  },
+  "gxDependencies": [
+    {
+      "author": "The Go Authors",
+      "hash": "QmVGjyM9i2msKvLXwh9VosCTgP4mL91kC7hDmqnwTTx6Hu",
+      "name": "sys",
+      "version": "0.2.0"
+    },
+    {
+      "author": "golang",
+      "hash": "QmcUuDu8FfWiUgZ8q3Rvvr4mwFTX5t1TKmVoWsB3FVHmhQ",
+      "name": "protobuf",
+      "version": "3.6.1"
+    },
+    {
+      "author": "whyrusleeping",
+      "hash": "QmRvYNctevGUW52urgmoFZscT6buMKqhHezLUS64WepGWn",
+      "name": "go-net",
+      "version": "0.2.0"
+    },
+    {
+      "author": "hsanjuan",
+      "hash": "QmXmnoM4x3JrfufvwzbWcr2XbihGwX7pmfsqPujdT3iqxV",
+      "name": "oauth2",
+      "version": "2019.1.30"
+    },
+    {
+      "author": "hsanjuan",
+      "hash": "QmUUfQje4i8vXntaPEWQgEukV8bADNVZsbZgMBRpfkH1wg",
+      "name": "go-genproto-googleapis-rpc",
+      "version": "2019.1.30"
+    },
+    {
+      "author": "hsanjuan",
+      "hash": "QmZx9avkvRFjhkyjQyK7ZWoJ5S9r8o1zPuysKQbBEm6wn8",
+      "name": "glog",
+      "version": "2019.1.30"
+    }
+  ],
+  "gxVersion": "0.14.0",
+  "language": "go",
+  "license": "Apache-2.0",
+  "name": "grpc-go",
+  "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
+  "version": "1.18.0"
+}
+
